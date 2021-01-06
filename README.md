@@ -25,20 +25,10 @@ d)	Numery kont mają mieć dokładnie 26 znaków
 e)	Kwota musi być większa od 0 
 
 
-## Wygląd aplikacji Make a transfer:
+## Demo aplikacji Make a transfer:
+Przykład prezentujący funkcjonalności rejestracji użytkownika, logowania i wysyłania przelewu.
 
-### <b> Strona startowa </b> 
-![](docs/start_page.png)
-
-### <b> Strona startowa po zalogowaniu </b> 
-![](docs/start_page_logged.png)
-
-### <b> Formularz logowania </b> 
-![](docs/login_page.png)
-
-### <b> Funkcjonalność wysyłania przelewów </b> 
-![](docs/make_transfer_form.png)
-
+![](docs/app_demo.gif)
 
 ## Scenariusze testowe
 
