@@ -7,10 +7,15 @@ Aplikacja ma zapewnić, że zostaną wysłane tylko przelewy, które dane są po
 ## Funkcjonalność wysłana przelewu 
 
 Zakładka „Make a transfer” ma się zachowywać w następujący sposób:
+
 a)	Zakładka jest widoczna i dostępna tylko dla zalogowanego użytkownika 
+
 b)	Wszystkie pola na formularzu muszą zostać uzupełnione
+
 c)	Numer konta wysyłającego nie może być taki sam jak numer konta odbiorcy
+
 d)	Numery kont mają mieć dokładnie 26 znaków
+
 e)	Kwota musi być większa od 0 
 
 
