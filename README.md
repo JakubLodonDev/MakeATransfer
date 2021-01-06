@@ -1,3 +1,7 @@
+# Cel repozytorium
+
+Przygotowanie scenariuszy i przypadków testowych na podstawie aplikacji Make a Transfer. 
+
 # Make a Transfer 
 
 Aplikacja służy do wykonywania przelewów. Aby wykonać przelew, musisz być zalogowany. 
