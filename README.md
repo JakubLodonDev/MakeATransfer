@@ -6,7 +6,9 @@ Przygotowanie scenariuszy i przypadków testowych na podstawie aplikacji Make a 
 
 Aplikacja służy do wykonywania przelewów. Aby wykonać przelew, musisz być zalogowany. 
 W tym celu aplikacja umożliwia utworzenie użytkownika i mechanizmy logowania.
-Aplikacja ma zapewnić, że zostaną wysłane tylko przelewy, które dane są poprawne. 
+Aplikacja ma zapewnić, że zostaną wysłane tylko przelewy, które dane są poprawne.
+
+<a href="https://makeatransfer.azurewebsites.net/">Link do aplikacji</a>
 
 ## Funkcjonalność wysłana przelewu 
 
