@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Make a transfer";
+}
+
+<style>
+.input-form-make-a-transfer {
+   padding-top: 5px !important;
+}
+
+.submit-button {
+    border: solid black;
+}
+</style>
+
+<div class="text-center">
+    <h1 class="display-4">Find some bugs in "Make a transfer" form</h1>
+    <form class="form" asp-action="MakeATransfer" asp-controller="Home" method="post" asp-route-returnUrl="@Url.Action("MakeATransfer", "Home", new {area = ""})">
+        <input type="text" class="form-control input-form-make-a-transfer" name="Title" placeholder="Title" aria-label="Title" aria-describedby="basic-addon1">
+        <input type="text" class="form-control input-form-make-a-transfer" name="SenderAccountNumber" placeholder="Sender Account Number" aria-label="SenderAccountNumber" aria-describedby="basic-addon1">
+        <input type="text" class="form-control input-form-make-a-transfer" name="RecipientAccountNumber" placeholder="Recipient Account Number" aria-label="RecipientAccountNumber" aria-describedby="basic-addon1">
+        <input type="text" class="form-control input-form-make-a-transfer" name="Amount" placeholder="Amount" aria-label="Amount" aria-describedby="basic-addon1">
+          
+        <button type="submit" class="btn btn-submit submit-button">Make a transfer</button>
+    </form>
+</div>
