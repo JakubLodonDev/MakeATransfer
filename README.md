@@ -39,5 +39,5 @@ e)	Kwota musi być większa od 0
 ### Rejestracja nowego użytkownika
 
 ### Wykonywanie przelewów 
-<a href="docs/test scenarios/make_transfer.xlsx" download="docs/test scenarios/make_transfer.xlsx">Scenariusz testowy wraz wykrytymi błędami </a>
+<a href="docs/test scenarios/make_transfer.xlsx" download="docs/test scenarios/make_transfer.xlsx">Pobierz scenariusz testowy wraz wykrytymi błędami - arkusz excel</a>
 
