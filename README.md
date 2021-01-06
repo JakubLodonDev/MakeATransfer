@@ -33,3 +33,11 @@ e)	Kwota musi być większa od 0
 ### <b> Funkcjonalność wysyłania przelewów </b> 
 ![](docs/make_transfer_form.png)
 
+
+## Scenariusze testowe
+
+### Rejestracja nowego użytkownika
+
+### Wykonywanie przelewów 
+<a href="docs/test scenarios/make_transfer.xlsx" download="file.csv">Scenariusz testowy wraz wykrytymi błędami </a>
+
