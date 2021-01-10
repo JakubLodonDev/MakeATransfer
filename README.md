@@ -11,9 +11,9 @@ Aplikacja ma zapewnić, że zostaną wysłane tylko przelewy, które dane są po
 <a href="https://makeatransfer.azurewebsites.net/">Link do aplikacji</a>
 
 ## Założenia aplikacji „Make a Transfer 
-
+<ol>
 1.	Rejestracja
-<ol type="a">
+  
   a.	Wszystkie pola są wymagane.
 
   b.	Email według założeń ma zawierać poprawne parametry (brak znaków specjalnych przed emailem, prawidłowo skonstruowaną domenę, zawiera znak „@”, brak znaków diakrytycznych).
