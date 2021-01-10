@@ -15,24 +15,39 @@ Aplikacja ma zapewnić, że zostaną wysłane tylko przelewy, które dane są po
 Założenia aplikacji „Make a Transfer
 1.	Rejestracja
 
-a.	Wszystkie pola są wymagane.
+  a.	Wszystkie pola są wymagane.
 
-b.	Email według założeń ma zawierać poprawne parametry (brak znaków specjalnych przed emailem, prawidłowo skonstruowaną domenę, zawiera znak „@”, brak znaków diakrytycznych).
-c.	Hasło skonstruowane z zasadami silnych haseł (minimum 6 znaków, jeden znak specjalny, jedną cyfrę i jedną wielką literę).
-d.	Potwierdzenie hasła.
-e.	Weryfikacja konta.
-f.	Wszelkie błędy będą miały informację zwrotną do użytkownika gdzie popełnił błąd.
+  b.	Email według założeń ma zawierać poprawne parametry (brak znaków specjalnych przed emailem, prawidłowo skonstruowaną domenę, zawiera znak „@”, brak znaków diakrytycznych).
+
+  c.	Hasło skonstruowane z zasadami silnych haseł (minimum 6 znaków, jeden znak specjalny, jedną cyfrę i jedną wielką literę).
+
+  d.	Potwierdzenie hasła.
+
+  e.	Weryfikacja konta.
+
+  f.	Wszelkie błędy będą miały informację zwrotną do użytkownika gdzie popełnił błąd.
+
 2.	Logowanie
-a.	Wszystkie pola są wymagane.
-b.	Użytkownik nie może zalogować się do systemu kontem, które nie zostało zweryfikowane.
-c.	Możliwość zapamiętanie ostatniego logowania.
+
+  a.	Wszystkie pola są wymagane.
+
+  b.	Użytkownik nie może zalogować się do systemu kontem, które nie zostało zweryfikowane.
+
+  c.	Możliwość zapamiętanie ostatniego logowania.
+
 3.	Wykonywanie przelewu.
-a.	Wszystkie pola są wymagane.
-b.	Treść tytułu nie może przekraczać 64 znaków.
-c.	Numer konta składa się z dokładnie 26 znaków numerycznych.
-d.	Kwota przelewu ma być większa od 0 a przelewy powyżej 5000 mają być autoryzowane hasłem użytkownika.
-e.	Po wykonaniu przelewu użytkownik zostanie poinformowany o prawidłowym wykonaniu operacji.
-f.	Użytkownik zostanie poinformowany o niepoprawnym uzupełnieniu formularza poprzez błędy wyświetlony pod kontrolką, gdzie został popełniony błąd.
+
+  a.	Wszystkie pola są wymagane.
+
+  b.	Treść tytułu nie może przekraczać 64 znaków.
+
+  c.	Numer konta składa się z dokładnie 26 znaków numerycznych.
+
+  d.	Kwota przelewu ma być większa od 0 a przelewy powyżej 5000 mają być autoryzowane hasłem użytkownika.
+
+  e.	Po wykonaniu przelewu użytkownik zostanie poinformowany o prawidłowym wykonaniu operacji.
+
+  f.	Użytkownik zostanie poinformowany o niepoprawnym uzupełnieniu formularza poprzez błędy wyświetlony pod kontrolką, gdzie został popełniony błąd.
 
 
 
