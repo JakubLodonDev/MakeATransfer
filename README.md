@@ -20,29 +20,24 @@ Aplikacja ma zapewnić, że zostaną wysłane tylko przelewy, które dane są po
         <li>Potwierdzenie hasła.</li>
         <li>Weryfikacja konta.</li>
         <li>Wszelkie błędy będą miały informację zwrotną do użytkownika gdzie popełnił błąd.</li>
-  </ul>
-</li>
-2.	Logowanie
-
-  a.	Wszystkie pola są wymagane.
-
-  b.	Użytkownik nie może zalogować się do systemu kontem, które nie zostało zweryfikowane.
-
-  c.	Możliwość zapamiętanie ostatniego logowania.
-
-3.	Wykonywanie przelewu.
-
-  a.	Wszystkie pola są wymagane.
-
-  b.	Treść tytułu nie może przekraczać 64 znaków.
-
-  c.	Numer konta składa się z dokładnie 26 znaków numerycznych.
-
-  d.	Kwota przelewu ma być większa od 0 a przelewy powyżej 5000 mają być autoryzowane hasłem użytkownika.
-
-  e.	Po wykonaniu przelewu użytkownik zostanie poinformowany o prawidłowym wykonaniu operacji.
-
-  f.	Użytkownik zostanie poinformowany o niepoprawnym uzupełnieniu formularza poprzez błędy wyświetlony pod kontrolką, gdzie został popełniony błąd.
+   </ul>
+  </li>
+  <li>Logowanie
+    <ul>
+     <li>Wszystkie pola są wymagane.</li>
+     <li>Użytkownik nie może zalogować się do systemu kontem, które nie zostało zweryfikowane.</li>
+     <li>Możliwość zapamiętanie ostatniego logowania.</li>
+    </ul>
+  </li>
+  <li>Wykonywanie przelewu.
+    <ul>
+      <li>Wszystkie pola są wymagane.</li>
+      <li>Treść tytułu nie może przekraczać 64 znaków.</li>
+      <li>Numer konta składa się z dokładnie 26 znaków numerycznych.</li>
+      <li>Kwota przelewu ma być większa od 0 a przelewy powyżej 5000 mają być autoryzowane hasłem użytkownika.Po wykonaniu przelewu użytkownik zostanie poinformowany o prawidłowym   wykonaniu operacji.</li>
+      <li>Użytkownik zostanie poinformowany o niepoprawnym uzupełnieniu formularza poprzez błędy wyświetlony pod kontrolką, gdzie został popełniony błąd.</li>
+    </ul>
+  </li>
 <ol>
 
 
