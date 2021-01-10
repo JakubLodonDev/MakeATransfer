@@ -12,9 +12,9 @@ Aplikacja ma zapewnić, że zostaną wysłane tylko przelewy, które dane są po
 
 ## Założenia aplikacji „Make a Transfer 
 <ol>
-<li>1.	Rejestracja<li>
+<li>Rejestracja<li>
   
-  <ul>a.	Wszystkie pola są wymagane.<ul>
+  <ul>Wszystkie pola są wymagane.<ul>
 
   b.	Email według założeń ma zawierać poprawne parametry (brak znaków specjalnych przed emailem, prawidłowo skonstruowaną domenę, zawiera znak „@”, brak znaków diakrytycznych).
 
