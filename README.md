@@ -10,19 +10,30 @@ Aplikacja ma zapewnić, że zostaną wysłane tylko przelewy, które dane są po
 
 <a href="https://makeatransfer.azurewebsites.net/">Link do aplikacji</a>
 
-## Funkcjonalność wysłana przelewu 
+## Założenia aplikacji „Make a Transfer 
 
-Zakładka „Make a transfer” ma się zachowywać w następujący sposób:
+Założenia aplikacji „Make a Transfer
+1.	Rejestracja
 
-a)	Zakładka jest widoczna i dostępna tylko dla zalogowanego użytkownika 
+a.	Wszystkie pola są wymagane.
 
-b)	Wszystkie pola na formularzu muszą zostać uzupełnione
+b.	Email według założeń ma zawierać poprawne parametry (brak znaków specjalnych przed emailem, prawidłowo skonstruowaną domenę, zawiera znak „@”, brak znaków diakrytycznych).
+c.	Hasło skonstruowane z zasadami silnych haseł (minimum 6 znaków, jeden znak specjalny, jedną cyfrę i jedną wielką literę).
+d.	Potwierdzenie hasła.
+e.	Weryfikacja konta.
+f.	Wszelkie błędy będą miały informację zwrotną do użytkownika gdzie popełnił błąd.
+2.	Logowanie
+a.	Wszystkie pola są wymagane.
+b.	Użytkownik nie może zalogować się do systemu kontem, które nie zostało zweryfikowane.
+c.	Możliwość zapamiętanie ostatniego logowania.
+3.	Wykonywanie przelewu.
+a.	Wszystkie pola są wymagane.
+b.	Treść tytułu nie może przekraczać 64 znaków.
+c.	Numer konta składa się z dokładnie 26 znaków numerycznych.
+d.	Kwota przelewu ma być większa od 0 a przelewy powyżej 5000 mają być autoryzowane hasłem użytkownika.
+e.	Po wykonaniu przelewu użytkownik zostanie poinformowany o prawidłowym wykonaniu operacji.
+f.	Użytkownik zostanie poinformowany o niepoprawnym uzupełnieniu formularza poprzez błędy wyświetlony pod kontrolką, gdzie został popełniony błąd.
 
-c)	Numer konta wysyłającego nie może być taki sam jak numer konta odbiorcy
-
-d)	Numery kont mają mieć dokładnie 26 znaków
-
-e)	Kwota musi być większa od 0 
 
 
 ## Demo aplikacji Make a transfer:
