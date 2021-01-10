@@ -14,8 +14,8 @@ Aplikacja ma zapewnić, że zostaną wysłane tylko przelewy, które dane są po
 
 1.	Rejestracja
 <ol type="a">
-  <li> a.	Wszystkie pola są wymagane.</li>
-<ol>
+  a.	Wszystkie pola są wymagane.
+
   b.	Email według założeń ma zawierać poprawne parametry (brak znaków specjalnych przed emailem, prawidłowo skonstruowaną domenę, zawiera znak „@”, brak znaków diakrytycznych).
 
   c.	Hasło skonstruowane z zasadami silnych haseł (minimum 6 znaków, jeden znak specjalny, jedną cyfrę i jedną wielką literę).
@@ -47,7 +47,7 @@ Aplikacja ma zapewnić, że zostaną wysłane tylko przelewy, które dane są po
   e.	Po wykonaniu przelewu użytkownik zostanie poinformowany o prawidłowym wykonaniu operacji.
 
   f.	Użytkownik zostanie poinformowany o niepoprawnym uzupełnieniu formularza poprzez błędy wyświetlony pod kontrolką, gdzie został popełniony błąd.
-
+<ol>
 
 
 ## Demo aplikacji Make a transfer:
