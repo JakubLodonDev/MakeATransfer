@@ -14,7 +14,7 @@ Aplikacja ma zapewnić, że zostaną wysłane tylko przelewy, które dane są po
 <ol>
 <li>Rejestracja<li>
   
-  <ul>Wszystkie pola są wymagane.<ul>
+<ul>Wszystkie pola są wymagane.<ul>
 
   b.	Email według założeń ma zawierać poprawne parametry (brak znaków specjalnych przed emailem, prawidłowo skonstruowaną domenę, zawiera znak „@”, brak znaków diakrytycznych).
 
