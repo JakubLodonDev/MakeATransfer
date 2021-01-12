@@ -4,9 +4,7 @@ Przygotowanie scenariuszy i przypadków testowych na podstawie aplikacji Make a 
 
 # Aplikacja webowa "Make a Transfer" 
 
-Aplikacja służy do wykonywania przelewów. Aby wykonać przelew, musisz być zalogowany. 
-W tym celu aplikacja umożliwia utworzenie użytkownika i mechanizmy logowania.
-Aplikacja ma zapewnić, że zostaną wysłane tylko przelewy, które dane są poprawne.
+Aplikacja służy do wykonywania przelewów. Funkcjonalność dostępna jest dla zalogowanych użytkowników, dlatego udostępniono interfejs umożliwiający utworzenie konta użytkownika oraz mechanizm logowania do aplikacji. W celu zapewnienia poprawności wykonywanych przez użytkowników transakcji, aplikacja weryfikuje poprawność danych wprowadzanych w formularzu wykonania przelewu.
 
 <a href="https://makeatransfer.azurewebsites.net/">Link do aplikacji</a>
 
@@ -15,27 +13,27 @@ Aplikacja ma zapewnić, że zostaną wysłane tylko przelewy, które dane są po
   <li>Rejestracja
     <ul>
       <li>Wszystkie pola są wymagane.</li>
-      <li>Email według założeń ma zawierać poprawne parametry (brak znaków specjalnych przed emailem, prawidłowo skonstruowaną domenę, zawiera znak „@”, brak znaków diakrytycznych).</li>
-        <li>Hasło skonstruowane z zasadami silnych haseł (minimum 6 znaków, jeden znak specjalny, jedną cyfrę i jedną wielką literę).</li>
-        <li>Potwierdzenie hasła.</li>
-        <li>Weryfikacja konta.</li>
-        <li>Wszelkie błędy będą miały informację zwrotną do użytkownika gdzie popełnił błąd.</li>
+      <li>Weryfikacja poprawności adresu email: brak znaków specjalnych przed emailem, prawidłowo skonstruowana domena, znak „@” w adresie, brak znaków diakrytycznych.</li>
+      <li>Wymagane hasło skonstruowane zgodnie z zasadami budowy silnych haseł: minimum 6 znaków, jeden znak specjalny, jedna cyfra i jedna wielka literę.</li>
+      <li>Potwierdzenie hasła.</li>
+      <li>Weryfikacja konta.</li>
+      <li>Błędy w uzupełnieniu formularza widoczne dla użytkownika – informacja zwrotna.</li>
    </ul>
   </li>
   <li>Logowanie
     <ul>
      <li>Wszystkie pola są wymagane.</li>
-     <li>Użytkownik nie może zalogować się do systemu kontem, które nie zostało zweryfikowane.</li>
-     <li>Możliwość zapamiętanie ostatniego logowania.</li>
+     <li>Dopuszczenia logowania do aplikacji tylko dla użytkowników ze zweryfikowanym kontem.</li>
+     <li>Możliwość zapamiętania ostatniego logowania.</li>
     </ul>
   </li>
   <li>Wykonywanie przelewu.
     <ul>
       <li>Wszystkie pola są wymagane.</li>
-      <li>Treść tytułu nie może przekraczać 64 znaków.</li>
-      <li>Numer konta składa się z dokładnie 26 znaków numerycznych.</li>
-      <li>Kwota przelewu ma być większa od 0 a przelewy powyżej 5000 mają być autoryzowane hasłem użytkownika.Po wykonaniu przelewu użytkownik zostanie poinformowany o prawidłowym   wykonaniu operacji.</li>
-      <li>Użytkownik zostanie poinformowany o niepoprawnym uzupełnieniu formularza poprzez błędy wyświetlony pod kontrolką, gdzie został popełniony błąd.</li>
+      <li>Pole „Tytuł” ograniczone do 64 znaków.</li>
+      <li>Pole „Numer konta” wymaga wprowadzenia 26 znaków numerycznych.</li>
+      <li>Kwota przelewu musi być większa od 0. Przelewy powyżej 5000 wymagają dodatkowej autoryzacji hasłem użytkownika.</li>
+      <li>Użytkownik zostanie poinformowany o niepoprawnym uzupełnieniu formularza poprzez wyświetlenie komunikatu walidacji pod kontrolką, w której został popełniony błąd.</li>
     </ul>
   </li>
 <ol>
