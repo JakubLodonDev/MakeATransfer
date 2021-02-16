@@ -27,7 +27,7 @@ namespace WebApplicationForTests.Controllers
         }
         
         [HttpPost]
-        public IActionResult MakeATransfer(MakeATransferModel model)
+        public IActionResult MakeATransfer([FromBody] MakeATransferModel model)
         {
             string message = "";
            
